@@ -1,0 +1,25 @@
+article.journal-entry {
+    display: flex;
+}
+
+.main-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.marker {
+    height: 10px;
+}
+
+.second-image-container > a{
+    padding-left: 10px;
+}
